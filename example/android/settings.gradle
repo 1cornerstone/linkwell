@@ -13,3 +13,13 @@ plugins.each { name, path ->
     include ":$name"
     project(":$name").projectDir = pluginDirectory
 }
+
+//dependencyResolutionManagement{
+//
+//    repositories{
+//        google()
+//        mavenCentral()
+//        jcenter()
+//        maven { url "https://jitpack.io" }
+//    }
+//}
